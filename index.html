@@ -9,20 +9,92 @@
   </head>
   <body>
     <div class="principal">
-      <div class="visor"></div>
-      <div class="teclado">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>0</div>
-        <div>Deletar</div>
-        <div>Apagar tudo</div>
+      <div class="visor" id="visor">
+        <!--<input type="text" id="password" placeholder="Senha">-->
+      </div>
+      <div class="teclado" id="teclado">
+        <div class="divbtn">
+          <button class="btn" id="1" type="button" onclick="num('1'), tam()">
+            1
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="2" type="button" onclick="num('2'), tam()">
+            2
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="3" type="button" onclick="num('3'), tam()">
+            3
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="4" type="button" onclick="num('4'), tam()">
+            4
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="5" type="button" onclick="num('5'), tam()">
+            5
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="6" type="button" onclick="num('6'), tam()">
+            6
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="7" type="button" onclick="num('7'), tam()">
+            7
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="8" type="button" onclick="num('8'), tam()">
+            8
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="9" type="button" onclick="num('9'), tam()">
+            9
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn1" id="deletar" type="button" onclick="limpar()">
+            Deletar
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button class="btn" id="0" type="button" onclick="num('0'), tam()">
+            0
+          </button>
+        </div>
+
+        <div class="divbtn">
+          <button
+            class="btn1"
+            id="apagarTudo"
+            type="button"
+            onclick="limparTudo()"
+          >
+            Apagar tudo
+          </button>
+        </div>
+      </div>
+
+      <div class="confirmar">
+        <button class="btn2" id="confirma" type="button" onclick="confirma()">
+          Confirma
+        </button>
       </div>
     </div>
 
